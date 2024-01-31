@@ -6,6 +6,8 @@ function loadNavbar() {
 
   // Set the HTML content for the navigation bar
   container.innerHTML = `
+  
+   
   <header>
 	<div class="container">
 	  <div class="nav-wrapper">
@@ -82,6 +84,7 @@ function loadNavbar() {
 	  </nav>
 	</div>
   </header>
+  
 	`;
 
   // Append the content to the container
