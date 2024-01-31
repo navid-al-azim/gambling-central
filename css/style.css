@@ -1,0 +1,223 @@
+* {
+  text-decoration: none;
+}
+header {
+  background-color:  #008080;
+
+  /* Light purple background for the entire header */
+}
+
+
+.nav-wrapper {
+  background-color:  #008080; /* Darker purple background for the first row */
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+}
+
+.site-name {
+  font-family: arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; /* Change to arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; */
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 70px;
+  text-align: center;
+  color: white;
+}
+
+.about-us {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; /* Change to arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; */
+  font-size: 16px;
+  font-weight: normal;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.about-us:hover {
+  background-color: #333333;
+}
+
+nav {
+  background-color:  #016363;
+  /* Darker purple background for the second row */
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 5px 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 0px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; /* Change to arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; */
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #004444;
+}
+/* Add this CSS for the submenu */
+nav ul li {
+  position: relative; /* Add this line to make sure the submenu is positioned relative to the list item */
+}
+
+/* Add this CSS for the submenu */
+.casino-online-submenu {
+  display: none;
+  position: absolute;
+  top: 30px; /* Position the submenu below the list item */
+  left: 0;
+  background-color: #008080; /* Darker purple background for the submenu */
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  min-width: 100%; /* Adjust the width of the submenu */
+  z-index: 1000;
+  box-sizing: border-box;
+  list-style: none;
+  transform-origin: left;
+}
+
+.casino-online-submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Align text to the left */
+  flex-direction: column;
+  padding: 0px; /* Add padding to the submenu */
+  margin: 0;
+}
+
+.casino-online-submenu li {
+  color: #ffffff;
+}
+
+.casino-online-submenu a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav ul li:hover .casino-online-submenu {
+  display: block;
+}
+
+/* Add this CSS for the nested "Payments" submenu */
+.sub-submenu {
+  display: none;
+  position: absolute;
+  top: 0; /* Adjust the position based on your design */
+  left: 100%; /* Position the submenu to the right of the parent menu item */
+  background-color: #008080; /* Darker purple background for the submenu */
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.sub-submenu ul {
+  list-style: none;
+  padding: 0px; /* Add padding to the submenu */
+  margin: 0;
+}
+
+.sub-submenu li {
+  margin: 0 0; /* Add margin above and below each submenu item */
+}
+
+.casino-online-submenu li:hover .sub-submenu {
+  display: block;
+}
+/* Your existing styles */
+
+footer {
+  background-color: #005252;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h2 {
+  
+  font-family: arial, "helvetica neue", "nimbus sans l", freesans, sans-serif;
+  color: #ffffff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.footer-social {
+  align-self: flex-end;
+}
+
+.footer-social img {
+  margin-right: 10px;
+}
+
+.gpro_section header .last-updated span {
+  font-weight: bold;
+  color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .nav-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-name {
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
