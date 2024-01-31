@@ -13,7 +13,7 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between ;
   align-items: center;
 }
 
@@ -22,15 +22,15 @@ header {
 }
 
 .site-name {
-  font-family: arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; /* Change to arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; */
-  font-size: 30px;
+  font-family: Arial ,sans-serif; /* Change to arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; */
+  font-size: 35px;
   font-weight: bold;
   margin-right: 70px;
   text-align: center;
   color: white;
 }
 
-.about-us {
+.homebutton {
   color: #ffffff;
   text-decoration: none;
   font-family: arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; /* Change to arial, "helvetica neue", "nimbus sans l", freesans, sans-serif; */
@@ -41,7 +41,7 @@ header {
   transition: background-color 0.2s ease-in-out;
 }
 
-.about-us:hover {
+.homebutton:hover {
   background-color: #333333;
 }
 

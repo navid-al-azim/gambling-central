@@ -15,8 +15,8 @@ function loadNavbar() {
 		<a href="/index.html" class="logo">
 		  <img src="/images/logo.png" alt="CasinoCanada Logo">
 		</a>
-		<span class="site-name">#1 Casino Review Site</span>
-		<a href="./about.html" class="about-us">About Us</a>
+		<span class="site-name">#1 Casino Review Site - GamblingCentral </span>
+		<div class ="homebutton"><a href="/" style = "color: white;"> HOME </a></div>
 	  </div>
 	  <nav>
 		<ul>
